@@ -6,15 +6,15 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Georgia, Arial}
-
+body {font-family: Georgia, ARial}
+/* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-image: url(https://images.unsplash.com/photo-1659469377768-4f42f2f091c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyayUyMGdyYWRpZW50fGVufDB8fDB8fHww&fm=jpg&q=60&w=3000);
 }
 
-
+/* Style the buttons inside the tab */
 .tab button {
   background-color: black;
   float: left;
@@ -27,7 +27,7 @@ body {font-family: Georgia, Arial}
   color:#39FF14
 }
 
-
+/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: orange;
 }
@@ -171,18 +171,10 @@ body {font-family: Georgia, Arial}
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Homepage')" id=defaultOpen>Homepage</button>
-  <div class="dropdown">
-    <button class="dropbtn">Awesome Projects 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
+  
   <button class="tablinks" onclick="openCity(event, 'myJourney')" > My Journey</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">My Awesome Project Pool</button>
+  <button class="tablinks" onclick="openCity(event,'Info')">Info</button>
     
 </div>
   
@@ -257,6 +249,9 @@ background-attachment:fixed">
 </div>
 
 </div>
+
+<div id="Info" class="tabcontent">
+<p> Neon </p>
 
 </body>
 
