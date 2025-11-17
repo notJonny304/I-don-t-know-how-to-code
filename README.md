@@ -187,9 +187,7 @@ notJonny's Awesome HTML Site</h1>
 
 <h2> <pre
 style="Color: White;font-family:Courier New;font-size:15px">
-
-
-         Not sure what to explore on this website? Here are some ideas!
+ Not sure what to explore on this website? Here are some ideas!
 
 </pre>
 
