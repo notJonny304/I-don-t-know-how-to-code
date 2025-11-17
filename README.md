@@ -6,15 +6,15 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Georgia, ARial}
-/* Style the tab */
+body {font-family: Georgia, Arial}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-image: url(https://images.unsplash.com/photo-1659469377768-4f42f2f091c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyayUyMGdyYWRpZW50fGVufDB8fDB8fHww&fm=jpg&q=60&w=3000);
 }
 
-/* Style the buttons inside the tab */
+
 .tab button {
   background-color: black;
   float: left;
@@ -27,7 +27,7 @@ body {font-family: Georgia, ARial}
   color:#39FF14
 }
 
-/* Change background color of buttons on hover */
+
 .tab button:hover {
   background-color: orange;
 }
